@@ -31,3 +31,7 @@ uv.lock
 
 # python version
 .python-version
+
+# environment variables
+.env
+.env.example
