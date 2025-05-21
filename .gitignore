@@ -1,5 +1,33 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+
+# Virtual environments
 .venv/
+env/
+venv/
+
+# Logs
 *.log
+
+# VS Code settings
 .vscode/
+*.code-workspace
+
+# PyCharm settings
+.idea/
+
+# MacOS
+.DS_Store
+
+# Build files
+*.egg-info/
+*.egg
+dist/
+build/
+
+# uv lockfile (optional)
+uv.lock
+
+# python version
+.python-version
