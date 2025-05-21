@@ -1,7 +1,26 @@
 [project]
 name = "mcp-client"
 version = "0.1.0"
-description = "Add your description here"
+description = "Client for interacting with MCP API using FastAPI and Streamlit"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "fastapi",
+    "httpx",
+    "uvicorn",
+    "python-dotenv",
+    "streamlit",
+    "pydantic",
+    "anthropic",
+    "rich"
+]
+authors = [{ name = "Seonok Kim", email = "seonokrkim@email.com" }]
+license = { text = "MIT" }
+keywords = ["fastapi", "mcp", "client", "streamlit"]
+
+[tool.setuptools]
+packages = { find = { where = ["api", "front"], exclude = ["tests"] } }
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
