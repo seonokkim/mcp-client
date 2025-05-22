@@ -2,6 +2,10 @@
 
 A Python client for interacting with MCP (Machine Control Platform) API using FastAPI and Streamlit.
 
+## ⚠️ Work in Progress
+
+This project is currently under active development. Features and APIs may change without notice. We welcome contributions and feedback from the community.
+
 ## Features
 
 - FastAPI-based API client for MCP services
@@ -70,6 +74,10 @@ mcp-client/
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+This project is heavily inspired by and based on the work of Alejandro's MCP client implementation. Special thanks to [@alejandro-ao](https://github.com/alejandro-ao) for their excellent [mcp-client-python-example](https://github.com/alejandro-ao/mcp-client-python-example) repository, which served as a foundation for this project.
 
 ## Contact
 
