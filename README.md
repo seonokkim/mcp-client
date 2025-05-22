@@ -77,7 +77,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-This project is heavily inspired by and based on the work of Alejandro's MCP client implementation. Special thanks to [@alejandro-ao](https://github.com/alejandro-ao) for their excellent [mcp-client-python-example](https://github.com/alejandro-ao/mcp-client-python-example) repository, which served as a foundation for this project.
+This project is based on the work of [Alejandro's MCP client implementation](https://github.com/alejandro-ao/mcp-client-python-example), which served as a foundation for this project.
 
 ## Contact
 
